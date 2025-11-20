@@ -12,7 +12,7 @@ export default function Home() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  // UI state
+ 
   const [query, setQuery] = useState("");
   const debouncedQuery = useDebounce(query, 250);
   const [industry, setIndustry] = useState("");
@@ -34,7 +34,7 @@ export default function Home() {
       .finally(() => setLoading(false));
   }, []);
 
-  // derived values for filter dropdown options
+   
   const industries = useMemo(() => {
     const set = new Set(companies.map((c) => c.industry));
     return ["", ...Array.from(set)];
@@ -45,7 +45,7 @@ export default function Home() {
     return ["", ...Array.from(set)];
   }, [companies]);
 
-  // filter + sort
+ 
   const filtered = useMemo(() => {
     let list = companies.slice();
 
