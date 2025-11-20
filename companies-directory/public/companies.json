@@ -1,0 +1,12 @@
+[
+  { "id": 1, "name": "Google", "location": "USA", "industry": "Tech" },
+  { "id": 2, "name": "Infosys", "location": "India", "industry": "IT Services" },
+  { "id": 3, "name": "Microsoft", "location": "USA", "industry": "Tech" },
+  { "id": 4, "name": "TCS", "location": "India", "industry": "IT Services" },
+  { "id": 5, "name": "Amazon", "location": "USA", "industry": "Tech" },
+  { "id": 6, "name": "Siemens", "location": "Germany", "industry": "Manufacturing" },
+  { "id": 7, "name": "Accenture", "location": "Ireland", "industry": "Consulting" },
+  { "id": 8, "name": "Wipro", "location": "India", "industry": "IT Services" },
+  { "id": 9, "name": "Sony", "location": "Japan", "industry": "Electronics" },
+  { "id": 10, "name": "Nokia", "location": "Finland", "industry": "Telecom" }
+]
