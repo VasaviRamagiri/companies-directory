@@ -17,8 +17,8 @@ export default function Home() {
   const debouncedQuery = useDebounce(query, 250);
   const [industry, setIndustry] = useState("");
   const [location, setLocation] = useState("");
-  const [sortBy, setSortBy] = useState("name-asc"); // name-asc | name-desc
-  const [view, setView] = useState("table"); // table | cards
+  const [sortBy, setSortBy] = useState("name-asc");  
+  const [view, setView] = useState("table"); 
 
   useEffect(() => {
     setLoading(true);
